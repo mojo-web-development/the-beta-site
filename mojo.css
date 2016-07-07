@@ -1,0 +1,30 @@
+body{
+	font-family: montserrat, helvetica;
+}
+
+.navbar{
+	height: 90px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #07a8c5;
+}
+
+li{
+	list-style: none;
+	float: right;
+	margin-top: 2%;
+	padding-right: 5%;
+}
+.logo{
+	float: left;
+	font-size: 200%;
+	font-family: 'montserrat', helvetica;
+}
+
+.logo2{
+	font-family: 'Shadows Into Light', 'lobster';
+	float:left;
+}
