@@ -1,5 +1,22 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
 body{
 	font-family: montserrat, helvetica;
+}
+
+.first_content{
+	width: 200px;
+	float: left;
+	margin-left: 15%;
+	text-align: center;
 }
 
 li{
@@ -19,7 +36,20 @@ li{
 	font-family: 'Shadows Into Light', cursive;
 
 }
-/* Here is a note */
+
+.main{
+	height: 500px;
+	background: URL('http://thewallpaper.co/wp-content/uploads/2016/01/abstract-wallpaper-hd-artworks-cool-desktop-images-art-colors-colorful-backgrounds-paints-background-images-2545x1664-736x459.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 102%;
+	color: white;
+	font-size: 300%;
+	top:  0;
+	right: 0;
+	left: 0;
+}
+
 .navbar{
 	height: 90px;
 	width: 100%;
@@ -28,4 +58,15 @@ li{
 	left: 0;
 	right: 0;
 	background-color: #07a8c5;
+}
+
+.title{
+	padding-top: 200px;
+	color: white;
+	font-size: 150%;
+	font-family: 'Lobster';
+}
+
+.wrench{
+	padding-top: 25px;
 }
