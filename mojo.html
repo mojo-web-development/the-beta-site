@@ -9,24 +9,19 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Lobster' rel='stylesheet' type='text/css'>
+</head>
     <script>
-    $(document).ready(function(){
-        $('section[data-type="background"]').each(function(){
-            var $bgobj = $(this); // assigning the object
+    (function(){
 
-            $(window).scroll(function() {
-                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+        var documentEl = $(document),
+            parallaxBg = $('.main');
 
-                // Put together our final background position
-                var coords = '50% '+ yPos + 'px';
-
-                // Move the background
-                $bgobj.css({ backgroundPosition: coords });
+            documentEl.on('scroll', function() {
+              var currScrollPos = documentEl.scrollTop();
+              parallaxBg.css('background-position', '0 ', + -currScrollPos/2 + 'px');
             });
         });
-    });
-    </script>
-  </head>
+          </script>
 
   <body>
     <header>
@@ -41,15 +36,17 @@
           <li><a href="dooks.html">Home</a></li>
         </ul>
       </nav>
-      <section class="main" data-type="background" data-speed="10">
-      <p align="center" class="title">  Let's make an awesome website!</p>
+      <section class="main">
+        <div class="title">
+      <p align="center">  Let's make an awesome website!</p>
+    </div>
     </section>
   </header>
   <div class="first_content">
     <img src="file:///Users/Dallin/Downloads/ic_build_black_24px.svg" height="45px" width="45px" class="wrench"/>
-    <span style="text-align: center; padding-top: 5px;">
-      We can build an amazing custom site for your business that will suit your needs and attract a ton of new clients and customers!
-    </span>
+  </div>
+  <div class="build">
+    We can build an awesome custom site for your business that will suit your needs and attract a ton of new clients and customers!
   </div>
   </body>
 
