@@ -12,13 +12,31 @@ body{
 }
 
 .build{
-	padding-top: 200px;
+	margin-top: 150px;
 	width: 150px;
 	position: absolute;
-	margin-left: 115px;
+	margin-left: 200px;
 	float:left;
 	text-align: center;
-	text-shadow: 1px 1px #07a8c5;
+	color: black;
+	border: 2px solid black;
+	padding: 5px 5px;
+	border-radius: 10px;
+	background-color: #07a8c5;
+}
+
+.code{
+	margin-top: 150px;
+	width: 150px;
+	position: absolute;
+	margin-left: 550px;
+	text-align: center;
+	color: black;
+	border: 2px solid black;
+	padding: 5px 5px;
+	border-radius: 10px;
+	background-color: #07a8c5;
+	float: right;
 }
 
 .first_content{
@@ -28,7 +46,9 @@ body{
 	text-align: center;
 	position: absolute;
 }
-
+i{
+	float: left;
+}
 li{
 	list-style: none;
 	float: right;
@@ -60,6 +80,13 @@ li{
 	left: 0;
 }
 
+.material-icons{
+	font-family: 'material icons';
+	padding-top: 125px;
+	margin-left: 20px;
+	font-size: 48px;
+}
+
 .navbar{
 	height: 90px;
 	width: 100%;
@@ -68,7 +95,21 @@ li{
 	left: 0;
 	right: 0;
 	background-color: #07a8c5;
+	transition-duration: 1s;
 }
+
+.person{
+	margin-top: 150px;
+	width: 150px;
+	position: absolute;
+	margin-left: 900px;
+	text-align: center;
+	color: black;
+	border: 2px solid black;
+	padding: 5px 5px;
+	border-radius: 10px;
+	background-color: #07a8c5;
+	float: right;
 
 .title{
 	padding-top: 200px;
@@ -76,8 +117,4 @@ li{
 	font-size: 400%;
 	font-family: 'Lobster';
 	margin-left: 10%;
-}
-
-.wrench{
-	padding-top: 125px;
 }
