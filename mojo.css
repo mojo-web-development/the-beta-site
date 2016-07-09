@@ -14,7 +14,7 @@ body{
 .build{
 	margin-top: 150px;
 	width: 150px;
-	position: absolute;
+	position: inherit;
 	margin-left: 200px;
 	float:left;
 	text-align: center;
@@ -28,15 +28,15 @@ body{
 .code{
 	margin-top: 150px;
 	width: 150px;
-	position: absolute;
-	margin-left: 550px;
+	margin-left: 150px;
 	text-align: center;
 	color: black;
 	border: 2px solid black;
 	padding: 5px 5px;
 	border-radius: 10px;
 	background-color: #07a8c5;
-	float: right;
+	display: inline-block;
+	float: inherit;
 }
 
 .first_content{
@@ -74,10 +74,20 @@ li{
 	background-size: cover;
 	background-attachment: fixed;
 	transition: all 0.2s ease;
-	width: 102%;
+	width: 100%;
 	top:  0;
 	right: 0;
 	left: 0;
+}
+
+.martin{
+	height: 300px;
+	background-color: black;
+	width: 100%;
+	background-attachment: scroll;
+	left: 0;
+	right: 0;
+	margin-top: 500px;
 }
 
 .material-icons{
@@ -99,10 +109,9 @@ li{
 }
 
 .person{
-	margin-top: 150px;
 	width: 150px;
-	position: absolute;
-	margin-left: 900px;
+	margin-top: 150px;
+	margin-right: 100px;
 	text-align: center;
 	color: black;
 	border: 2px solid black;
@@ -110,11 +119,19 @@ li{
 	border-radius: 10px;
 	background-color: #07a8c5;
 	float: right;
+	position: inherit;
+}
 
-.title{
-	padding-top: 200px;
-	color: white;
-	font-size: 400%;
-	font-family: 'Lobster';
-	margin-left: 10%;
+.title {
+padding-top: 200px;
+color: white;
+font-size: 400%;
+font-family: 'Lobster';
+margin-left: 10%;
+}
+
+.wrapper{
+	margin-left:auto;
+    margin-right:auto;
+    width:1200px;
 }
