@@ -7,7 +7,7 @@ a:hover{
 	color: white;
 }
 
-.blankrow{
+.blanknavrow{
 	background-color: transparent;
 	height: 100px;
 	position: relative;
@@ -91,6 +91,10 @@ li{
 	left: 0;
 }
 
+.mainbackground{
+	background: #333;
+}
+
 .martin{
 	height: 300px;
 	background-color: black;
@@ -120,14 +124,14 @@ li{
 }
 
 .pagetitle{
-	background: #07a8c5;
-	border-radius: 15px;
-	color: black;
-	float: left;
-	font-size: 30px;
-	height: 60px;
+	background: transparent;
+	color: #07a8c5;
+	font-size: 150px;
+	height: 100px;
+	margin: auto;
 	padding: 20px 0 0 10px;
-	width: 150px;
+	text-align: center;
+	width: 100%;
 }
 
 .person{
