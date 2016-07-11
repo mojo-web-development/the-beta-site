@@ -7,6 +7,13 @@ a:hover{
 	color: white;
 }
 
+.arrow{
+	background: #07a8c5;
+	height: 100px;
+	margin: auto;
+	width: 200px;
+}
+
 .blanknavrow{
 	background-color: transparent;
 	height: 100px;
@@ -127,10 +134,10 @@ li{
 	background: transparent;
 	color: #07a8c5;
 	font-size: 150px;
-	height: 100px;
-	margin: auto;
+	height: 250px;
 	padding: 20px 0 0 10px;
 	text-align: center;
+	white-space: nowrap;
 	width: 100%;
 }
 
