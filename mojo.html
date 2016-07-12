@@ -15,13 +15,13 @@
       function scroll (){
         var top = document.getElementsByClassName('navbar');
         var ypos = window.pageYOffset;
-        if(ypos > 50){
+        if(ypos < 0){
           top.style.height = "transparent";
         }
             else {
-              top.style.background-color = "#07a8c5";
-        };
-      };
+              top.style.background = "#07a8c5";
+                  };
+                };
       window.addEventListener("scroll",scroll);
             </script>
 </header>
