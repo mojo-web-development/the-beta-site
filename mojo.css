@@ -30,31 +30,30 @@ body{
 }
 
 .build{
-	margin-top: 150px;
-	width: 150px;
-	position: inherit;
-	margin-left: 200px;
-	float:left;
 	text-align: center;
 	color: black;
 	border: 2px solid black;
 	padding: 5px 5px;
 	border-radius: 10px;
 	background-color: #07a8c5;
+	width: 150px;
+	margin: auto;
 }
 
 .code{
-	margin-top: 150px;
-	width: 150px;
-	margin-left: 150px;
+	margin: auto;
 	text-align: center;
 	color: black;
 	border: 2px solid black;
 	padding: 5px 5px;
 	border-radius: 10px;
 	background-color: #07a8c5;
-	display: inline-block;
-	float: inherit;
+	width: 150px;
+}
+
+.container{
+	display: flex;
+	margin-top: 150px;
 }
 
 .first_content{
@@ -109,7 +108,7 @@ li{
 	background-attachment: scroll;
 	left: 0;
 	right: 0;
-	margin-top: 500px;
+	margin-top: 150px;
 }
 
 .material-icons{
@@ -127,7 +126,7 @@ li{
 	left: 0;
 	right: 0;
 	background-color: #07a8c5;
-	transition-duration: 1s;
+	transition-duration: 3s;
 }
 
 .pagetitle{
@@ -142,17 +141,14 @@ li{
 }
 
 .person{
-	width: 150px;
-	margin-top: 150px;
-	margin-right: 100px;
+	margin: auto;
 	text-align: center;
 	color: black;
 	border: 2px solid black;
 	padding: 5px 5px;
 	border-radius: 10px;
 	background-color: #07a8c5;
-	float: right;
-	position: inherit;
+	width: 150px;
 }
 
 .title {
@@ -161,10 +157,4 @@ color: white;
 font-size: 400%;
 font-family: 'Lobster';
 margin-left: 10%;
-}
-
-.wrapper{
-	margin-left:auto;
-    margin-right:auto;
-    width:1200px;
 }

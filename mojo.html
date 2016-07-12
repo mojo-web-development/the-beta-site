@@ -4,20 +4,29 @@
 
     <title>Web development at its finest. </title>
 
-  <head>
+  <header>
     <link type="text/css" rel="stylesheet" href="mojo.css" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Lobster' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-</head>
-    <script type="text/javascript" src="mojo.js">
-
-          </script>
+      <script type="text/javascript">
+      function scroll (){
+        var top = document.getElementsByClassName('navbar');
+        var ypos = window.pageYOffset;
+        if(ypos > 50){
+          top.style.height = "transparent";
+        }
+            else {
+              top.style.background-color = "#07a8c5";
+        };
+      };
+      window.addEventListener("scroll",scroll);
+            </script>
+</header>
 
   <body>
-  <div class="wrapper">
     <header>
       <nav class="navbar">
         <div class="logo">
@@ -40,18 +49,17 @@
 
 
   </div>
-
+<div class="container">
   <div class="build">
     We can build an awesome custom site for your business that will suit your needs and attract a ton of new clients and customers!
 </div>
 
 <div class="code"> Don't know how to code? No problem! We'll do it for you! Using coding languages such as html and css, php, and javascript, we can make your site beautiful and functional.</div>
-</div>
 
 <div class="person"> We will work alongside you to ensure that your site exceeds your expectations and meets your specifications.</div>
+</div>
 <div class="martin">
 
-</div>
 </div>
   </body>
 
